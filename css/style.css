@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+body {
+    background-color:rgb(243, 210, 168)
+}
+
+.heading {
+    text-align: center;
+}
+
+.pasta-heading {
+    color: rgb(38, 73, 179);
+    font-family: 'Dancing Script', cursive;
+    font-size :3rem;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative
+}
+@keyframes heading {
+    0% {top: -250px}
+    100% {top: 0px}
+}
+
+.main {
+    border: 2px solid brown;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table-heading {
+text-align: center;
+color: rgb(185, 14, 14);
+ }
+
+ .table-settings {
+    margin: 0 auto;
+    color: darkblue;
+    animation: table;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+ }
+ 
+ @keyframes table {
+    0% {opacity: 0}
+    100% {opacity: 1}
+ }
+
+.do {
+    color: rgb(29, 3, 182);
+    animation: do;
+    position: relative;
+    animation-duration: 3s;
+}
+
+@keyframes do {
+    0% {left: -1000px}
+    75% {left: 100px}
+    100% {left: 0px}
+}
+img {
+    width: 150px;  
+    animation: img;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+@keyframes img {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+
+
+.footer {
+    color: darkslateblue;
+    text-align: center;
+}
